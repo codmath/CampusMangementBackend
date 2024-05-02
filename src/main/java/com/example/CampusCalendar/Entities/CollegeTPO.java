@@ -45,8 +45,7 @@ public class CollegeTPO {
     private String state;
     @Column
     private double compensation;
-    @Column
-    private String Hr;
+
     //mapping
 
 //    @ManyToOne
