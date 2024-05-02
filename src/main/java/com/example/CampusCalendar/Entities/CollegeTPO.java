@@ -47,6 +47,7 @@ public class CollegeTPO {
     private double compensation;
     @Column
     private String Hr;
+    //mapping
 
 //    @ManyToOne
 //    @JoinColumn(name = "employeeId")
