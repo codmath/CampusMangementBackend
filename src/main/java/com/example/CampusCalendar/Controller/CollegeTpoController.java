@@ -27,6 +27,7 @@ public class CollegeTpoController {
     @GetMapping("/viewData/{collegeId}")
     public CollegeTPO getCollegeTPOById(@PathVariable int collegeId) {
         return myTpoService.getCollegeTPOById(collegeId);
+
     }
     //Update CollegeTpo
     @PutMapping("/updateData/{collegeId}")
