@@ -45,6 +45,8 @@ public class CollegeTPO {
     private String state;
     @Column
     private double compensation;
+    @Column
+    private String Hr;
 
 //    @ManyToOne
 //    @JoinColumn(name = "employeeId")
